@@ -6,12 +6,14 @@ import './index.css';
 
 import Header from './components/header';
 import Main from './components/main';
+import Creations from './components/creations'
 import Footer from './components/footer'
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Main/>
+    <Creations/>
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')

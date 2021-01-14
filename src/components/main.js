@@ -5,8 +5,8 @@ function Main(){
   return (
     <Container className="m-5">
       <Row>
-        <Col  md={{size:6}}>
-           <img className="photo float-left" src="image-interactive.jpg" alt="Interactive gameplay" fluid/>
+        <Col className="float-left" md={{size:6}}>
+           <img className="photo " src="image-interactive.jpg" alt="Interactive gameplay" fluid/>
         </Col>
         <Col  md={{ size:6}}>
           <Card className="card">

@@ -5,13 +5,13 @@ import {Container, Col, Row, List, ListInlineItem} from 'reactstrap';
 
 const Footer = () => {
   return (
-    <footer className=" mt-5 footer fixed-bottom">
+    <footer className=" mt-5 footer ">
       <Container >
         <Row >
           <Col className="mt-2"  md={{size:6}}>
             <h4>loopStudios</h4>
           </Col>
-          <Col className="mt-2 pl-10"  md={{size:6}}>
+          <Col className="mt-2 pl-10"  md={{offset:3}}>
             <List type="inline">
               <ListInlineItem>
               <a className="btn btn-social-icon "><i className="fa fa-facebook"></i></a>
@@ -29,16 +29,16 @@ const Footer = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={{size:6}}>
+          <Col md={{size:7}}>
             <List type="inline" >
-              <ListInlineItem>About </ListInlineItem>
-              <ListInlineItem> Careers </ListInlineItem>
-              <ListInlineItem> Events </ListInlineItem>
-              <ListInlineItem> Products </ListInlineItem>
-              <ListInlineItem> Support </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm">About </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm"> Careers </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm"> Events </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm"> Products </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm"> Support </a> </ListInlineItem>
             </List>
           </Col>
-          <Col md={{size:6}}>
+          <Col md={{offset:1}}>
             <p>© 2021 LoopStudios.All rights reserved.</p>
           </Col>
         </Row>

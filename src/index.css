@@ -23,11 +23,9 @@
   font-weight: lighter;
 }
 .photo{
-  max-width: 100%;
+  max-width: 90%;
   height:auto;
 }
-
-
 .card{
   border: none;
   border-radius: 0;
@@ -35,7 +33,11 @@
 .btn-social-icon{
   color:white;
 }
+.btn-sm{
+  color:white;
+}
 .footer{
   color:white;
   background-color: black;
+  font-size: 12px;
 }
