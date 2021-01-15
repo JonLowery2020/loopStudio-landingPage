@@ -5,14 +5,14 @@ import {Container, Row, Col, Button, Card, CardTitle,  CardImg, CardImgOverlay} 
 const Creations = () => {
   return(
     <React.Fragment >
-      <div >
+      <div  >
         <Container >
           <Row>
-            <Col xs={{size:12, offset:2}} md={{size:6}}>
-              <h3 className="headers" >OUR CREATIONS</h3>
+            <Col xs={{size:12}} md={{size:6}}>
+              <h3 className="headers our-creations" >OUR CREATIONS</h3>
             </Col>
-            <Col xs={{size:12, offset:4}}md={{offset:4}}>
-              <Button  outline color="secondary" >See All</Button>
+            <Col xs={{size:12, offset:9}}md={{offset:4}} >
+              <Button  outline color="secondary" className="our-creations-btn" >See All</Button>
             </Col>
           </Row>
         </Container>
@@ -46,7 +46,7 @@ const Creations = () => {
             </Col>
             <Col md={{size:3}}>
               <Card className="creation-card" inverse>
-                <CardImg src= "image-Grid.jpg" alt="The Grid"/>
+                <CardImg src= "image-grid.jpg" alt="The Grid"/>
                 <CardImgOverlay>
                   <CardTitle tag="h5" className="headers">The Grid</CardTitle>
                 </CardImgOverlay>

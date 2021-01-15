@@ -38,7 +38,7 @@ const Footer = () => {
               <ListInlineItem><a className="btn btn-sm" href="/"> Support </a> </ListInlineItem>
             </List>
           </Col>
-          <Col md={{offset:1}}>
+          <Col  md={{offset:1}}>
             <p>© 2021 LoopStudios.All rights reserved.</p>
           </Col>
         </Row>

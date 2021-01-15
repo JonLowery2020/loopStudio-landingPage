@@ -1,3 +1,11 @@
+
+html{
+  margin:0px;
+}
+body{
+  overflow-x: hidden;
+}
+
 .navigation{
   background-image: url('assets/images/desktop/image-hero.jpg');
   background-size:cover;
@@ -12,6 +20,7 @@
 }
 .jumbotron{
   padding:70px 30px 70px 30px;
+
 
 }
 .montra {
@@ -60,6 +69,7 @@
   color:white;
   background-color: black;
   font-size: 12px;
+  margin: 0px auto;
 }
 @media only screen and (max-width: 775px){
 
@@ -79,6 +89,12 @@
      position: static;
      width: 100%;
      text-align:center;
+   }
+   .our-creations{
+     text-align:center;
+   }
+   .footer{
+     align-content: center;
    }
 
  }

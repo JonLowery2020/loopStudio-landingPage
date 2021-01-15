@@ -11,10 +11,12 @@ import Footer from './components/footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
-    <Main/>
-    <Creations/>
-    <Footer/>
+    <div>
+      <Header/>
+      <Main/>
+      <Creations/>
+      <Footer/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
