@@ -11,7 +11,7 @@ import Footer from './components/footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    <Header/>
     <Main/>
     <Creations/>
     <Footer/>

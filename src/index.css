@@ -22,9 +22,26 @@
   font-size: 50px;
   font-weight: lighter;
 }
+.headers{
+  font-weight:lighter;
+}
 .photo{
-  max-width: 90%;
+  background-position: cover;
+  display:block;
   height:auto;
+}
+
+.photo > img {
+  max-width: 100%;
+}
+
+.content{
+  position: absolute;
+  width: 50%;
+  padding: 3em;
+  background-color: white;
+  bottom: 0;
+  right: -5%;
 }
 .card{
   border: none;
@@ -36,8 +53,32 @@
 .btn-sm{
   color:white;
 }
+.creation-card{
+  margin-top: 15px
+}
 .footer{
   color:white;
   background-color: black;
   font-size: 12px;
 }
+@media only screen and (max-width: 775px){
+
+   .creation-card{
+     max-height: 150px;
+     margin-top: 20px
+   }
+
+   .card-img{
+     width: 100%;
+     height:150px;
+     object-fit: cover;
+     object-position: top;
+
+   }
+   .content{
+     position: static;
+     width: 100%;
+     text-align:center;
+   }
+
+ }

@@ -14,16 +14,16 @@ const Footer = () => {
           <Col className="mt-2 pl-10"  md={{offset:3}}>
             <List type="inline">
               <ListInlineItem>
-              <a className="btn btn-social-icon "><i className="fa fa-facebook"></i></a>
+              <a className="btn btn-social-icon " href="/"><i className="fa fa-facebook"></i></a>
               </ListInlineItem>
               <ListInlineItem>
-              <a className="btn btn-social-icon "><i className="fa fa-twitter"></i></a>
+              <a className="btn btn-social-icon " href="/"><i className="fa fa-twitter"></i></a>
               </ListInlineItem>
               <ListInlineItem>
-              <a className="btn btn-social-icon "><i className="fa fa-pinterest"></i></a>
+              <a className="btn btn-social-icon " href="/"><i className="fa fa-pinterest"></i></a>
               </ListInlineItem>
               <ListInlineItem>
-              <a className="btn btn-social-icon "><i className="fa fa-instagram"></i></a>
+              <a className="btn btn-social-icon " href="/"><i className="fa fa-instagram"></i></a>
               </ListInlineItem>
             </List>
           </Col>
@@ -31,11 +31,11 @@ const Footer = () => {
         <Row>
           <Col md={{size:7}}>
             <List type="inline" >
-              <ListInlineItem><a className="btn btn-sm">About </a> </ListInlineItem>
-              <ListInlineItem><a className="btn btn-sm"> Careers </a> </ListInlineItem>
-              <ListInlineItem><a className="btn btn-sm"> Events </a> </ListInlineItem>
-              <ListInlineItem><a className="btn btn-sm"> Products </a> </ListInlineItem>
-              <ListInlineItem><a className="btn btn-sm"> Support </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm" href="/">About </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm" href="/"> Careers </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm" href="/"> Events </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm" href="/"> Products </a> </ListInlineItem>
+              <ListInlineItem><a className="btn btn-sm" href="/"> Support </a> </ListInlineItem>
             </List>
           </Col>
           <Col md={{offset:1}}>
