@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/loopStudio-landingPage/static/css/main.3315e40b.chunk.css",
+    "main.js": "/loopStudio-landingPage/static/js/main.12239fef.chunk.js",
+    "main.js.map": "/loopStudio-landingPage/static/js/main.12239fef.chunk.js.map",
+    "runtime-main.js": "/loopStudio-landingPage/static/js/runtime-main.bde48a51.js",
+    "runtime-main.js.map": "/loopStudio-landingPage/static/js/runtime-main.bde48a51.js.map",
+    "static/css/2.e4b3c990.chunk.css": "/loopStudio-landingPage/static/css/2.e4b3c990.chunk.css",
+    "static/js/2.24fc2a55.chunk.js": "/loopStudio-landingPage/static/js/2.24fc2a55.chunk.js",
+    "static/js/2.24fc2a55.chunk.js.map": "/loopStudio-landingPage/static/js/2.24fc2a55.chunk.js.map",
+    "index.html": "/loopStudio-landingPage/index.html",
+    "static/css/2.e4b3c990.chunk.css.map": "/loopStudio-landingPage/static/css/2.e4b3c990.chunk.css.map",
+    "static/css/main.3315e40b.chunk.css.map": "/loopStudio-landingPage/static/css/main.3315e40b.chunk.css.map",
+    "static/js/2.24fc2a55.chunk.js.LICENSE.txt": "/loopStudio-landingPage/static/js/2.24fc2a55.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/loopStudio-landingPage/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/index.css": "/loopStudio-landingPage/static/media/image-hero.3de81110.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bde48a51.js",
+    "static/css/2.e4b3c990.chunk.css",
+    "static/js/2.24fc2a55.chunk.js",
+    "static/css/main.3315e40b.chunk.css",
+    "static/js/main.12239fef.chunk.js"
+  ]
+}
